@@ -1,6 +1,4 @@
 
-
-
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -1249,7 +1247,6 @@ h2 {
 }
 
 #diagrama {
-  right: 7%;
   top: 70px;
   position: relative;
   color: mintcream;
@@ -1394,7 +1391,7 @@ h2 {
 
 
 
-#cta .arrow{left: 25%;}
+#cta .arrow{left: -42%;}
 
 .arrow {position: absolute;
   bottom: 0;
@@ -1411,9 +1408,144 @@ h2 {
 .next {
 
   background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTMxOS4xIDIxN2MyMC4yIDIwLjIgMTkuOSA1My4yLS42IDczLjdzLTUzLjUgMjAuOC03My43LjZsLTE5MC0xOTBjLTIwLjEtMjAuMi0xOS44LTUzLjIuNy03My43UzEwOSA2LjggMTI5LjEgMjdsMTkwIDE5MHoiLz48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzE5LjEgMjkwLjVjMjAuMi0yMC4yIDE5LjktNTMuMi0uNi03My43cy01My41LTIwLjgtNzMuNy0uNmwtMTkwIDE5MGMtMjAuMiAyMC4yLTE5LjkgNTMuMi42IDczLjdzNTMuNSAyMC44IDczLjcuNmwxOTAtMTkweiIvPjwvc3ZnPg==);
-
+  background-repeat: no-repeat;
 }
+#diagrama .logoequisystem2{
+  width: 150%;
+}
+#diagrama #sispro{
+  width: 150%;
+  right: 40px;
+  position: relative;
+}
+@media screen and (max-width: 440px){
+  .logoAncaplast, .logoequisystem3 {
+    width: 110%;
+    position: relative;
+    bottom: -17px;
+  }
+  .logoequisystem3{
+    right:6px;
+  }
+  .logoAncaplast{
+    width: 150px;
+    position: relative;
+    right: 28px;
+  }
+  #otrolado #cta{
+    width: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: -41px;width: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: -41px;
+    
+  }
+  .cta, .arrow {
+    width: 40%;
+    top: -3px;
+  }
+  #diagrama .arrow {
+    width: 40%;
+    top: -3px;
+    left: 0px;
+  }
+  #diagrama .logoequisystem2{
+    width: 225%;
+  }
+  #diagrama #sispro{
+    width: 225%;
+    right: 6px;
+    position: relative;}
 
+  .round {
+    position: relative;
+    border: 0px solid rgb(46, 185, 185);
+    width: 28px;
+    border-radius: 45%;
+    
+    }
+    #otrolado .round{
+      position: relative;
+      border: 0px solid rgb(46, 185, 185);
+      width: 28px;
+      border-radius: 45%;
+      left: 21px;
+      bottom: 11px;
+    }
+    #diagrama .arrow {
+    width: 40%; 
+    top: -3px;
+    }
+
+    .subtitle h5, h1{
+      color: mintcream;
+      font-size: 100%;
+    }
+    
+     h2 {
+      color:#48ffd5;
+      font-size: 100%;
+    }
+    
+    
+    #Titulo2 {
+      color:rgba(255, 255, 255, 0.8);
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 770px){
+  .logoAncaplast, .logoequisystem3 {
+    width: 100%;
+  }
+  .cta, .arrow {
+    width: 40%;
+    top: -19px;
+  }
+.round {
+    position: relative;
+    border: 0px solid rgb(46, 185, 185);
+    width: 47px;
+    height: 70px;
+    border-radius: 45%;
+    bottom: -25%;
+    
+  }
+}
+@media screen and (min-width: 770px) and (max-width: 990px){
+
+  .logoAncaplast, .logoequisystem3 {
+    width: 100%;
+  }
+
+  .cta, .arrow {
+    width: 40%;
+    top: -19px;
+  }
+  #sispro, .logoequisystem2 {
+  width: 200%;
+  left: 10%;
+  position: relative;
+  margin-bottom: 65px;
+  margin-top: 15px;
+  }
+  #diagrama #sispro{
+    left: -33px;
+    
+  }
+  #titulo2, .subtitle {
+    font-size: 15px;
+  }
+  .round {
+    position: relative;
+    border: 0px solid rgb(46, 185, 185);
+    width: 47px;
+    height: 70px;
+    border-radius: 45%;
+    bottom: -25%;
+    
+  }
+}
 
 
 /* ===================Otras vinculaciones=======================*/
@@ -1610,35 +1742,24 @@ h2 {
   justify-content: center;
   margin-top: 3%;
   padding: 0%;
-  margin-left: -13%;
-  left: 6%;
+  
 }
 
 
 #circularimg, #legendaCircular{
-  width: 80%;
-  font-size: 100%;
+  width: 103%;
+  font-size: 80%;
   text-align: center;
 }
-@media (max-width: 810px){
 
-  .logoAncaplast, .logoequisystem {
 
-    width: 110%;
-  }
-  .cta, .arrow {
-    width: 38%;
-    top: -19px;
-  }
-  #sispro, .logoequisystem2 {
-  width: 175%;
-  left: 41%;
-  position: relative;
-  margin-bottom: 65px;
-  margin-top: 15px;
-  }
-  #titulo2, .subtitle {
-    font-size: 15px;
+@media screen and (max-width: 769px){
+ 
+  #servicios{
+    display: grid;
+    position: relative;
+    margin-top: 3%;
+    padding: 0%;
   }
   #circularimg, #legendaCircular {
     width: 250px;
@@ -1646,30 +1767,32 @@ h2 {
     margin: revert-layer;
     text-align: center;
   }
-  
+}
+
+@media screen and (min-width: 770px) and (max-width: 990px){
   #servicios{
-    display: inline list-item;
+    display: flex;
     position: relative;
     margin-top: 3%;
     padding: 0%;
-    margin-left: -13%;
-    left: 25%;
+  }
+  #circularimg, #legendaCircular {
+    width: 107%;
+    font-size: 70%;
+    margin: revert-layer;
+    text-align: center;
+    margin-inline-end: 10px;
   }
 }
+/*=================Fin servicios=========================*/
 
-/* para dimensiones de dispositivos de 800 
-@media (min-width: 810px){
-.round {
-  position: relative;
-  border: 0px solid rgb(46, 185, 185);
-  width: 70px;
-  height: 70px;
-  border-radius: 45%;
-  bottom: -25%;
-  left: 67%;
-}
-}
-*/
+
+
+
+
+ 
+
+
 
 #hero, #nosotros, #Funcionalidades, #Caracteristicas, #nuestros_servicios, #vinculaciones, #otras_funciones {
   margin: 30px;
